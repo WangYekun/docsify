@@ -1,6 +1,6 @@
 ## MySQL50学习
 
-```SQL
+```java
 -- 建表语句
 -- 学生表
 CREATE TABLE `Student`(
