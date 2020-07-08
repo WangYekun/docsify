@@ -1,6 +1,6 @@
 ## MySQL50学习
 
-```java
+```SQL
 -- 建表语句
 -- 学生表
 CREATE TABLE `Student`(
@@ -699,5 +699,6 @@ where week(a.s_birth, 1) = week(date(now()), 1);
 select a.s_id, s_name, s_birth, s_sex
 from test_mysql.Student as a
 where day(a.s_birth) = day(date(now()));
+
 ########################################################################################################################
 ```
